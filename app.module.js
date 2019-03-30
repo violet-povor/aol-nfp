@@ -92,6 +92,7 @@ app.config( function($logProvider, $compileProvider, $urlRouterProvider, $stateP
             templateUrl: "concerts/youth2016.html",
             controller: "MainController",
             controllerAs: "ctrl"
+            
         })
         .state('youth2017', {
             url: "/youthconcert2017",
@@ -105,6 +106,13 @@ app.config( function($logProvider, $compileProvider, $urlRouterProvider, $stateP
             controller: "MainController",
             controllerAs: "ctrl"
         })
+        .state('upcoming_events', {
+            url: "/programs/upcoming_events",
+            templateUrl: "/programs/upcoming_events",
+            controller: "MainController",
+            controllerAs: "ctrl"
+        })
+
         .state('youthseries', {
             url: "/youthseries",
             templateUrl: "youth_series.html",
