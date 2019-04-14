@@ -106,9 +106,9 @@ app.config( function($logProvider, $compileProvider, $urlRouterProvider, $stateP
             controller: "MainController",
             controllerAs: "ctrl"
         })
-        .state('upcoming_events', {
-            url: "/programs/upcoming_events",
-            templateUrl: "/programs/upcoming_events",
+        .state('upcoming-events', {
+            url: "/programs/upcoming-events",
+            templateUrl: "/programs/upcoming_events.html",
             controller: "MainController",
             controllerAs: "ctrl"
         })
