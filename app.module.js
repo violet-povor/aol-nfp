@@ -122,8 +122,8 @@ app.config( function($logProvider, $compileProvider, $urlRouterProvider, $stateP
 });
 
 app.run(function(DataService) {
-    DataService.loadSpecials();
-    DataService.loadPhrases();
+    //DataService.loadSpecials();
+    //DataService.loadPhrases();
 });
 
 
